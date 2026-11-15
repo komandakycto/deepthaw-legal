@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Thaw — Legal</title>
+    <style>
+        :root {
+            --bg: #f2f6f9;
+            --surface: #e2ebf2;
+            --text: #2e3d4b;
+            --heading: #1b2734;
+            --accent: #2d6a96;
+            --link: #275f88;
+            --border: #bccddb;
+            --muted: #5d7183;
+            --hover: #d6e3ee;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body {
+            background: var(--bg);
+            min-height: 100vh;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+            color: var(--text);
+            line-height: 1.7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 520px;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            color: var(--accent);
+            font-size: 1.8rem;
+            margin-bottom: 0.25rem;
+            letter-spacing: 0.02em;
+        }
+        .subtitle {
+            color: var(--text);
+            font-size: 0.95rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        a.doc-link {
+            display: block;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 4px 4px 0;
+            color: var(--link);
+            text-decoration: none;
+            padding: 1rem 1.25rem;
+            font-size: 1.05rem;
+            transition: border-color 0.15s ease, background 0.15s ease;
+        }
+        a.doc-link:hover {
+            background: var(--hover);
+            border-color: var(--accent);
+        }
+        .footer {
+            margin-top: 2.5rem;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+        .footer a { color: var(--link); text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0a1119;
+                --surface: #131e2b;
+                --text: #c2d2e0;
+                --heading: #e5eef6;
+                --accent: #8fc3ea;
+                --link: #8fc3ea;
+                --border: #243447;
+                --muted: #8395a7;
+                --hover: #1b2939;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Deep Thaw: Ball Drop Puzzle</h1>
+    <p class="subtitle">Legal Documents</p>
+
+    <div class="links">
+        <a class="doc-link" href="privacy-policy.html">Privacy Policy</a>
+        <a class="doc-link" href="terms-of-service.html">Terms of Service</a>
+        <a class="doc-link" href="data-deletion.html">Data Deletion</a>
+        <a class="doc-link" href="third-party-notices.html">Third-Party Notices</a>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Leonid Korsakov</p>
+        <p><a href="mailto:support-komandakycto@proton.me">support-komandakycto@proton.me</a></p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Thaw — Data Deletion</title>
+    <style>
+        :root {
+            --bg: #f2f6f9;
+            --surface: #e2ebf2;
+            --text: #2e3d4b;
+            --heading: #1b2734;
+            --accent: #2d6a96;
+            --link: #275f88;
+            --border: #bccddb;
+            --muted: #5d7183;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: var(--accent);
+            font-size: 1.8rem;
+            margin-bottom: 0.25rem;
+        }
+        .subtitle {
+            color: var(--text);
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+        .effective-date {
+            color: var(--muted);
+            font-size: 0.85rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        h2 {
+            color: var(--heading);
+            font-size: 1.25rem;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.35rem;
+            border-bottom: 1px solid var(--border);
+        }
+        p { margin-bottom: 0.85rem; }
+        a { color: var(--link); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        ul, ol {
+            margin-bottom: 0.85rem;
+            padding-left: 1.5rem;
+        }
+        li { margin-bottom: 0.35rem; }
+        .highlight {
+            background: var(--surface);
+            border-left: 3px solid var(--accent);
+            padding: 0.75rem 1rem;
+            margin-bottom: 1rem;
+            border-radius: 0 4px 4px 0;
+        }
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0a1119;
+                --surface: #131e2b;
+                --text: #c2d2e0;
+                --heading: #e5eef6;
+                --accent: #8fc3ea;
+                --link: #8fc3ea;
+                --border: #243447;
+                --muted: #8395a7;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+<h1>Data Deletion</h1>
+<p class="subtitle">Deep Thaw: Ball Drop Puzzle — Puzzle Game for Android</p>
+<p class="effective-date">Last Updated: November 15, 2026</p>
+
+<div class="highlight">
+    <p>
+        <strong>Deep Thaw has no account.</strong> We never ask you to register, we run no
+        servers, and we hold no copy of your game data. Your progress lives on your own
+        device — Section 1 explains how to erase it. Advertising, analytics and crash data
+        is a separate matter, held by Google; Section 2 covers it.
+    </p>
+</div>
+
+<!-- ======================================== -->
+<h2>1. Data on Your Device</h2>
+<p>
+    Your progress, your settings and the record of your attempts at each level are stored
+    in the App's private storage. To remove them:
+</p>
+<ul>
+    <li><strong>Reset your progress in the game</strong> —
+        <strong>Settings → RESET PROGRESS</strong>. This clears your stars, points, boosters
+        and tutorial state. Your settings and the record of your attempts stay.</li>
+    <li><strong>Clear all App data</strong> — Android
+        <strong>Settings → Apps → Deep Thaw → Storage → Clear data</strong>, or simply
+        uninstall the App. This removes everything, including your settings, the record of
+        your attempts and your consent choice.</li>
+</ul>
+<p>
+    Nothing of this is stored anywhere else: there is no cloud copy to delete, and the
+    App's opt-out from Android's cloud backup keeps it out of your Google Drive.
+</p>
+
+<!-- ======================================== -->
+<h2>2. Advertising, Analytics and Crash Data</h2>
+<p>
+    To reset or delete your advertising identifier, open Android's settings — on most
+    devices under <strong>Google → Ads</strong> or <strong>Privacy → Ads</strong>. Where the
+    App asks for consent, you can withdraw it at any time: reopen the dialog through the
+    privacy options in the App's Settings screen.
+</p>
+<p>
+    Withdrawing stops personalized advertising and stops analytics and advertising
+    identifiers being read from or written to your device. It does not switch measurement
+    off completely: the App keeps sending Google a small aggregated signal that carries no
+    identifier and cannot be tied back to you. We say so plainly rather than promise a
+    silence we do not deliver — the legal basis for that reduced measurement is explained
+    in <a href="privacy-policy.html">Section 6 of the Privacy Policy</a>. Crash reporting
+    is not behind the consent dialog at all, for the reason given in Section 5 of the
+    same Policy.
+</p>
+<p>
+    Data already collected through these services sits on Google's systems and carries a
+    randomly generated identifier rather than your name or account. We cannot find your
+    records from your name or your email address. If you are able to supply your
+    app-instance identifier, we can ask Google to delete the analytics events recorded
+    against it. Crash reports are deleted on Firebase's own published schedule.
+</p>
+
+<!-- ======================================== -->
+<h2>3. Requesting Deletion by Email</h2>
+<p>
+    Write to
+    <a href="mailto:support-komandakycto@proton.me">support-komandakycto@proton.me</a> with
+    the subject line "Data Deletion Request". We will delete what we hold that relates to
+    you, except anything we are required to keep by law. We aim to answer within one month,
+    or sooner where the law that applies to you requires it. Please do not send identity
+    documents unless we ask for something we reasonably need in order to verify your
+    request.
+</p>
+
+<div class="footer">
+    <p>&copy; 2026 Leonid Korsakov. All rights reserved.</p>
+    <p>
+        <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp;
+        <a href="terms-of-service.html">Terms of Service</a>&nbsp;|&nbsp;
+        <a href="third-party-notices.html">Third-Party Notices</a>
+    </p>
+</div>
+
+</div>
+</body>
+</html>
